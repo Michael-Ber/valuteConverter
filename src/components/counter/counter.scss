@@ -1,0 +1,20 @@
+.counter {
+    text-align: center;
+    margin-top: 100px;
+    &-result {
+        font-size: 72px;
+        font-weight: 600;
+        margin-bottom: 50px;
+        color: #000;
+    }
+    &__btns {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        button {
+            &:nth-child(n):not(:first-child) {
+                margin-left: 30px;
+            }
+        }
+    }
+}
